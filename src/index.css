@@ -349,3 +349,19 @@ ol {
     transform: scale(1);
   }
 }
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  #game-board button {
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+  }
+}
+
+button:focus {
+  outline: 2px solid #f6e35a;
+  outline-offset: 2px;
+}

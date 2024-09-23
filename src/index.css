@@ -353,7 +353,17 @@ ol {
   h1 {
     font-size: 2.5rem;
   }
-  
+
+  #players li {
+    flex-direction: column;
+text-align: center;
+  }
+  #players button {
+    width: 1rem;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.15rem 0.15rem 0.15rem;
+    text-align: center;
+  }
   #game-board button {
     width: 4rem;
     height: 4rem;
